@@ -1,19 +1,15 @@
-# Projet Scientifique
+# Projet d'informatique scientifique
 
 Théo SEZESTRE
 
-Licence 3 Informatique parcours maths-info
+L3 Informatique parcours maths-info, Nantes Université
 
-Nantes Université
+**Etape 1** : télécharger en local les fichiers.
 
-Projet d'informatique scientifique
+**Etape 2** : lancer Julia dans un terminal
 
-Etape 1 : télécharger en local les fichiers.
+**Etape 3** : lancer la commande suivante : *include("pathfind.jl")*
 
-Etape 2 : lancer Julia dans un terminal
+**Etape 4** : pour tester l'algorithme de Dijkstra sur un fichier *filename* avec des points de départ et d'arrivée (x1,y1) et (x2,y2), lancer la commande suivante : *algoDijkstra(filename, (x1,y1), (x2,y2))*.
 
-Etape 3 : lancer la commande suivante : include("dijkstra.jl") pour lancer résolution par l'algorithme de Dijkstra sur la carte "theglaive.map", avec le problème : (50,250) vers (400,380).
-
-Etape 4 : lancer la commande suivante : "include("Astar.jl") pour lancer la résolution du même problème avec l'algorithme A*. Vous pouvez ainsi comparer l'efficacité des deux algorithmes.
-
-Etape 5 : pour tester sur d'autres cartes et problèmes, modifier le nom du fichier .map (ligne -- sur dijkstra.jl et ligne -- sur Astar.jl) et les coordonnées des points de départ et d'arrivée (ligne -- sur dijkstra.jl et ligne -- sur Astar.jl).
+**Etape 5** : de la même façon, pour tester l'algorithme A*, lancer la commande suivante : *algoAstar(filename, (x1,y1), (x2,y2))*.
