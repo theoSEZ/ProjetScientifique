@@ -12,23 +12,23 @@ Ce projet d'informatique a pour but d'implémenter deux algorithmes de recherche
 
 - Utilisation
 
-**Etape 1** : télécharger en local les fichiers.
+**Etape 1** : Télécharger en local les fichiers
 
-**Etape 2** : lancer Julia dans un terminal
+**Etape 2** : Lancer Julia dans un terminal
 
-**Etape 3** : ajouter les packages DataStructures et PyPlot
+**Etape 3** : Ajouter les packages DataStructures et PyPlot
 
-**Etape 4** : lancer la commande suivante : 
+**Etape 4** : Lancer la commande suivante : 
 ```julia
 include("pathfind.jl")*
 ```
 
-**Etape 5** : pour tester l'algorithme de Dijkstra sur un fichier *filename* avec des points de départ et d'arrivée (x1,y1) et (x2,y2), lancer la commande suivante : 
+**Etape 5** : Pour tester l'algorithme de Dijkstra sur un fichier *filename* avec des points de départ et d'arrivée (x1,y1) et (x2,y2), lancer la commande suivante : 
 ```julia
 algoDijkstra(filename, (x1,y1), (x2,y2))
 ```
 
-**Etape 6** : de la même façon, pour tester l'algorithme A*, lancer la commande suivante :
+**Etape 6** : De la même façon, pour tester l'algorithme A*, lancer la commande suivante :
 ```julia
 algoAstar(filename, (x1,y1), (x2,y2))
 ```
