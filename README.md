@@ -8,7 +8,7 @@ L3 Informatique parcours maths-info, Nantes Université
 
 - Présentation
 
-Ce projet d'informatique a pour but d'implémenter deux algorithmes de recherche du plus court chemin: l'algorithme de Dijkstra et l'algorithme A*. L'algorithme de Dijkstra est un algorithme de recherche informée optimale. Il fonctionne de la même manière que l'algorithme de recherche aveugle *flood fill* mais tient compte des zones pénalisantes, le rendant ainsi plus efficace. L'algorithme A* est une version encore améliorée, car il utilise une heuristique (l'heursistique de Manhattan) qui lui évite d'étudier de très nombreux points inutiles en se focalisant sur ceux qui lui permettent de toujours s'approcher du point d'arrivée 
+Ce projet d'informatique a pour but d'implémenter deux algorithmes de recherche du plus court chemin: l'algorithme de Dijkstra et l'algorithme A*. L'algorithme de Dijkstra est un algorithme de recherche informée optimale. Il fonctionne de la même manière que l'algorithme de recherche aveugle *flood fill* mais tient compte des zones pénalisantes, le rendant ainsi plus efficace. L'algorithme A* est une version encore améliorée, car il utilise une heuristique (l'heursistique de Manhattan) qui lui évite d'étudier de très nombreux points inutiles en se focalisant sur ceux qui lui permettent de toujours s'approcher du point d'arrivée.
 
 - Utilisation
 
