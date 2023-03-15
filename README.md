@@ -20,7 +20,7 @@ Ce projet d'informatique a pour but d'implémenter deux algorithmes de recherche
 
 **Etape 4** : Lancer la commande suivante : 
 ```julia
-include("pathfind.jl")
+include("./src/pathfind.jl")
 ```
 
 **Etape 5** : Pour tester l'algorithme de Dijkstra sur un fichier *filename* avec des points de départ et d'arrivée (x1,y1) et (x2,y2), lancer la commande suivante : 
