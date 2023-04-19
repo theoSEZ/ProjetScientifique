@@ -164,7 +164,7 @@ function algoDijkstra(filename::String, D::Tuple{Int64,Int64}, A::Tuple{Int64,In
   xe::Int64 = A[1]
   ye::Int64 = A[2]
 
-  map = trad_map("./dat/Maps/$filename")
+  map = trad_map("../dat/Maps/$filename")
 
 #distance de chaque point par rapport au départ
 dist::Matrix{Int64} = fill(999999, size(map,1), size(map,2))
@@ -298,7 +298,7 @@ function algoAstar(filename::String, D::Tuple{Int64,Int64}, A::Tuple{Int64,Int64
     xe::Int64 = A[1]
     ye::Int64 = A[2]
 
-    map = trad_map("./dat/Maps/$filename")
+    map = trad_map("../dat/Maps/$filename")
 
     #distance de chaque point par rapport au départ
     dist::Matrix{Int64} = fill(9999999, size(map,1), size(map,2))
